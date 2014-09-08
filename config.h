@@ -28,7 +28,7 @@ extern "C" {
 
 #define CFG_CURRENT_INITIAL_MA          1000l
 
-#define CFG_MUL_THRESHOLD               100l
+#define CFG_MUL_THRESHOLD               18l
 
 #define CFG_SENS_UV_PER_AMPER           66000l
 #define CFG_ADC_UV_QUANTUM              4882l
@@ -49,7 +49,7 @@ extern "C" {
 #define RELAY_OL_PORT                   PORTA
 #define RELAY_OL_TRIS                   TRISA
 #define RELAY_OL_LAT                    LATA
-#define RELAY_OL_PIN_Pos                2
+#define RELAY_OL_PIN_Pos                3
 #define RELAY_OL_PIN_Msk                (0x01u << RELAY_OL_PIN_Pos)
 
 #define DEBUG_PIN_PORT                  PORTB
